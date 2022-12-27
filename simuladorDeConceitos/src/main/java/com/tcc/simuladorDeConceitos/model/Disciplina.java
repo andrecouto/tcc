@@ -1,8 +1,11 @@
+/*
 package com.tcc.simuladorDeConceitos.model;
 
+//import com.tcc.simuladorDeConceitos.auxiliar.Turma;
 import jakarta.persistence.*;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
+//import java.util.List;
 
 @Entity
 @Table(name = "disciplina")
@@ -11,8 +14,11 @@ public class Disciplina {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @ElementCollection(targetClass = Integer.class)
-    private ArrayList<Turma> listaTurmas = new ArrayList<>();
+
+    //@ElementCollection(targetClass = Integer.class)
+    //private Docente listaDocente;
+
+    private int cargaHoraria;
 
     public Disciplina() {
     }
@@ -25,11 +31,21 @@ public class Disciplina {
         this.id = id;
     }
 
-    public ArrayList<Turma> getListaTurmas() {
-        return listaTurmas;
+    public Docente getListaDocente() {
+        return listaDocente;
     }
 
-    public void setListaTurmas(ArrayList<Turma> listaTurmas) {
-        this.listaTurmas = listaTurmas;
+    public void setListaDocente(Docente listaDocente) {
+        this.listaDocente = listaDocente;
+    }
+
+    public int getCargaHoraria() {
+        return cargaHoraria;
+    }
+
+    public void setCargaHoraria(int cargaHoraria) {
+        this.cargaHoraria = cargaHoraria;
     }
 }
+ */
+

@@ -29,7 +29,7 @@ public class Docente {
     private int publicacoesTresUltimosAnos;
 
     //private SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
-    @Temporal(TemporalType.DATE)
+    //@Temporal(TemporalType.DATE)
     //private Date dataAdmissao; // date sql? **********************
     LocalDate dataAdmissao = LocalDate.now();
     private int cargaHorariaExtra;

@@ -1,3 +1,4 @@
+/*
 package com.tcc.simuladorDeConceitos.service;
 
 import com.tcc.simuladorDeConceitos.model.Disciplina;
@@ -8,3 +9,4 @@ public interface DisciplinaService {
     public Disciplina saveDisciplina(Disciplina disciplina);
     public List<Disciplina> getAllDisciplinas();
 }
+*/

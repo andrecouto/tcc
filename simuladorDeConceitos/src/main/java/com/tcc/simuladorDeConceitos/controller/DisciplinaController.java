@@ -1,3 +1,4 @@
+/*
 package com.tcc.simuladorDeConceitos.controller;
 
 import com.tcc.simuladorDeConceitos.model.Disciplina;
@@ -25,3 +26,4 @@ public class DisciplinaController {
         return disciplinaService.getAllDisciplinas();
     }
 }
+*/

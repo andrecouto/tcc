@@ -1,3 +1,4 @@
+/*
 package com.tcc.simuladorDeConceitos.service;
 
 import com.tcc.simuladorDeConceitos.model.Disciplina;
@@ -22,3 +23,4 @@ public class DisciplinaServiceImplementation implements DisciplinaService{
         return disciplinaRepository.findAll();
     }
 }
+*/
